@@ -9,19 +9,18 @@ Tools used: Unittest
 <ol>
 <h2> Test Plan </h2>
 <br>
-Test Plan: 
 
-Page opening verification test:  
+           1.Page opening verification test:  
 
 Test Type: Smoke test  
 
 Action: Accessing the website https://www.saucedemo.com/  
 
 Expected Result: The page opens correctly or not. 
+           
+           2. Login test:  
 
-Login test:  
-
-a) Valid login test:  
+           a) Valid login test:  
 
 Test Type: Positive test  
 
@@ -45,7 +44,7 @@ Action: Entering incorrect username and/or password
 
 Expected Result: Display error message 
 
-Logout test:  
+           3. Logout test:  
 
 Test Type: Functional test  
 
@@ -53,7 +52,7 @@ Action: Clicking the logout button
 
 Expected Result: Successful logout 
 
-Sidebar menu opening and closing test:  
+           4. Sidebar menu opening and closing test:  
 
 Test Type: Functional test  
 
@@ -61,7 +60,7 @@ Action: Opening and then closing the sidebar menu
 
 Expected Result: Sidebar menu opens and closes correctly 
 
-Product adding test:  
+           5. Product adding test:  
 
 Test Type: Functional test  
 
@@ -69,7 +68,7 @@ Action: Adding a product to the cart
 
 Expected Result: Product added successfully to the cart 
 
-Product deletion test:  
+           6. Product deletion test:  
 
 Test Type: Functional test  
 
@@ -77,7 +76,7 @@ Action: Deleting a product from the cart
 
 Expected Result: Product deleted correctly from the cart or the cart is empty 
 
-Product ordering test:  
+           7. Product ordering test:  
 
 Test Type: End-to-end test  
 
@@ -85,7 +84,7 @@ Action: Adding a product to the cart and completing the order
 
 Expected Result: Order placed successfully 
 
-Accessing the product details page test:  
+           8. Accessing the product details page test:  
 
 Test Type: Functional test  
 
@@ -93,7 +92,7 @@ Action: Accessing the page with the details of a product
 
 Expected Result: The product details page opens correctly 
 
-Changing the quantity of the added product in the cart test:  
+           9. Changing the quantity of the added product in the cart test:  
 
 Test Type: Functional test  
 
@@ -101,7 +100,7 @@ Action: Changing the quantity of the added product in the cart
 
 Expected Result: Changing the quantity of the product 
 
-Accessing the main page by the "Back to products" button test:  
+           10. Accessing the main page by the "Back to products" button test:  
 
 Test Type: Functional test  
 
